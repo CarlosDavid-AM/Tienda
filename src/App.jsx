@@ -1,8 +1,12 @@
+import { API_URL } from "../env"
+
 const App = () => {
   return(
-    <h1>
-      Hola Mundo
-    </h1>
+    <div>
+      <h1>
+        Hola {API_URL}
+      </h1>
+    </div>
   )
 }
 

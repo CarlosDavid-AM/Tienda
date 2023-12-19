@@ -1,6 +1,6 @@
 import { API_URL } from "../constants/env"
 
-const App = () => {
+const Home = () => {
   return(
     <div>
       <h1>
@@ -11,4 +11,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Home
